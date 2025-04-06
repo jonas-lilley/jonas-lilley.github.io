@@ -8,37 +8,59 @@
   </head>
 
   <body>
-    <h1>The Story of Te Houtaewa (PAGE heading)</h1>
-    <h2>
-      E kore e mau i a koe, he wae kai pakiaka.
-      <em
-        >A foot accustomed to running over roots makes the speediest runner.</em
-      >
-      (Optional SUB title)
-    </h2>
-    <h3>10 November 2010</h3>
-
+    <h1>Classes vs. Ids</h1>
+    <h2>Overview</h2>
     <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on
-      his peoples enemies. One morning his mother wanted kumara for the hangi
-      (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short
-      distance away. He agreed to fetch the kumara and told his mother to
-      prepare the hangi.
+      Both are tags that help target page elements and are fundamental building
+      blocks for: css, html and javascript.
+    </p>
+    <h2>Differnces</h2>
+    <p>
+      The main difference between both of them is that ids are unique and
+      classes are not.
+    </p>
+    <h2>So what does that mean?</h2>
+    <em>For Classses</em>
+    <p>
+      You can use the same class on multiple elements and you can use multiple
+      elements on the same classes.
+    </p>
+    <em>For Ids</em>
+    <p>
+      You can use one ID for each element and each page can only have that one
+      element with that Id once.
+    </p>
+    <h2>So what are the best ways to use both?</h2>
+    <em>For Classes</em>
+    <p>
+      Since classes cam be used by multiple elements on the same page and
+      multiple classes can be used by a single element on the same page, an
+      example of best practices is with styling or any other broad targeting
+      tasks. Instead of needing to make a new Id for every element you want to
+      target you can use classes to speed up the process. Its resusability is it
+      strength.
+    </p>
+    <em>For Ids</em>
+    <p>
+      Since Id's are unique to the element it is applied to, an example of its
+      best practice is with '#' value or any other specific targeting. By using
+      the '#' in a URL, a browser will locate the specfic element with that
+      exact '#' value and automatically scroll. It's uniqueness is its strength.
+    </p>
+    <h2>Specficity Weight</h2>
+    <p>
+      Specficity weight is the rule that css uses when deciding what declaration
+      to use. Typically the last declaration found when reading the code from
+      top to bottom, also known as 'heirachichy', is what will be used if the
+      specficity weight is equal. If however the specficity weight is not equal
+      then the more specfic declartion will be used not matter what declartion
+      was last found.
     </p>
     <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as
-      he wanted to annoy some Te Rarawa people who lived there. Carrying two
-      large baskets for the kumara, he ran like the wind, completing the journey
-      over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few
-      hours it takes a good hangi to heat up properly. On reaching Ahipara, he
-      went straight to the people's kumara pataka (storehouse for the sweet
-      potatoes) situated at the foot of the hill Whangatauatia.
+      An analogy I found useful for Classes and Ids is serial codes and
+      barcodes. A barcode for an iphone product will read the same price at a
+      checkout, but both phones have a serial number specfically created for
+      itself.
     </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted
-      stealing the kai (food). He was immediately recognised.
-    </p>
-
-    <!-- this is a comment. -->
   </body>
 </html>
