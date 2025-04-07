@@ -4,34 +4,70 @@
     <title>Blog 1 - Css Concepts</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" rel="stylesheet"/>
   </head>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img/>
+        </a>
+        <span class="navbar-burger" data-target="navbarMenuHeroC">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenuHeroC" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> Home </a>
+          <a class="navbar-item" href="blog-page.html"> Weekly Blogs </a>
+          <a class="navbar-item" href="about-me.html"> About me </a>
+          <span class="navbar-item">
+            </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <body>
-    <h1>Classes vs. Ids</h1>
-    <h2>Overview</h2>
+    <div class="block">
+    <h1 class="title is-1">Classes vs. Ids</h1>
+    </div>
+    <div class="block">
+    <h2 class="title is-3">Overview</h2>
     <p>
       Both are tags that help target page elements and are fundamental building
       blocks for: css, html and javascript.
     </p>
-    <h2>Differnces</h2>
+    </div>
+    <div class="block">
+    <h2 class="title is-3">Differnces</h2>
     <p>
       The main difference between both of them is that ids are unique and
       classes are not.
     </p>
-    <h2>So what does that mean?</h2>
-    <em>For Classses</em>
+  </div>
+  <div class="block">
+    <h2 class="title is-3">So what does that mean?</h2>
+    <em class="title is-5">For Classses</em>
     <p>
       You can use the same class on multiple elements and you can use multiple
       elements on the same classes.
     </p>
-    <em>For Ids</em>
+  </div>
+  <div class="block">
+    <em class="title is-5">For Ids</em>
     <p>
       You can use one ID for each element and each page can only have that one
       element with that Id once.
     </p>
-    <h2>So what are the best ways to use both?</h2>
-    <em>For Classes</em>
+    </div>
+   <div class="block"> 
+    <h2 class="title is-3">So what are the best ways to use both?</h2>
+    <em class="title is-5">For Classes</em>
+  <div class="block">
     <p>
       Since classes cam be used by multiple elements on the same page and
       multiple classes can be used by a single element on the same page, an
@@ -40,14 +76,18 @@
       target you can use classes to speed up the process. Its resusability is it
       strength.
     </p>
-    <em>For Ids</em>
+  </div>
+  <div class="block">
+    <em class="title is-5">For Ids</em>
     <p>
       Since Id's are unique to the element it is applied to, an example of its
       best practice is with '#' value or any other specific targeting. By using
       the '#' in a URL, a browser will locate the specfic element with that
       exact '#' value and automatically scroll. It's uniqueness is its strength.
     </p>
-    <h2>Specficity Weight</h2>
+  </div>
+  <div class="block">
+    <h2 class="title is-3">Specficity Weight</h2>
     <p>
       Specficity weight is the rule that css uses when deciding what declaration
       to use. Typically the last declaration found when reading the code from
@@ -62,5 +102,6 @@
       checkout, but both phones have a serial number specfically created for
       itself.
     </p>
+  <div>  
   </body>
 </html>
