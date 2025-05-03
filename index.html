@@ -1,68 +1,94 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jonas's Ultra Cool Epic Blog</title>
+    <title>jonas-lilley</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
     />
   </head>
-  <section class="hero is-success is-fullheight">
-    <!-- Hero head: will stick at the top -->
-    <div class="hero-head">
-      <header class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-              <img/>
-            </a>
-            <span class="navbar-burger" data-target="navbarMenuHeroC">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroC" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item" href="index.html"> Home </a>
-              <a class="navbar-item" href="blog-page.html"> Weekly Blogs </a>
-              <a class="navbar-item" href="about-me.html"> About me </a>
-              <span class="navbar-item">
-                </a>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-
-    <!-- Hero content: will be in the middle -->
+  <section class="hero is-small is-link">
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">Welcome To My Page</p>
-        <div></div>
-        <p class="subtitle">You can find my Weekly Blog and About Me page <strong> above </strong> </p>
-      <div>
-
-      </div>
-        <p class="subtitle">or you can find my Weekly Blogs individually <strong> below</strong></p>
-      </div>
-    </div>
-
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li><a href="blog/css-concepts.html">Classes vs. Ids</a></li>
-            <li><a href="blog/learning-plan.html">My learning plan</a></li>
-            <li><a href="blog/identity-values.html">Indentity and values</a></li>
-            <li><a href="blog/te-houtaewa-template.html">Te houtaewa template</a></li>
-          </ul>
-        </div>
-      </nav>
+      <p class="title">Welcome to my page!</p>
+      <p class="subtitle py-1">Checkout my blogs below</p>
     </div>
   </section>
+  <section class="section">
+    <div class="container is-align-items-self-end has-text-weight-medium is-fluid ">
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>Cultural blogs</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="learning-plan.html" class="dropdown-item"> My learning plan</a>
+                <hr class="dropdown-divider" />
+                <a href="identity-values.html" class="dropdown-item"> Indentity and values</a>
+                <hr class="dropdown-divider" />
+                <a href="emotional.intelligence.html" class="dropdown-item"> Emotional intelligence</a>
+                <hr class="dropdown-divider" />
+                <a href="neuroplasticity.html" class="dropdown-item">Neuroplasticity</a>
+              </div>
+    </div>
+  </section>
+  <section>
+    <div class="section my-3"></div>
+  </section>
+  <section class="section">
+    <div class="container is-align-items-self-end has-text-weight-medium is-fluid ">
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>Technical blogs</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="te-houtaewa-template.html" class="dropdown-item">Te-houtaewa template</a>
+                <hr class="dropdown-divider" />
+                <a href="css-concepts.html" class="dropdown-item"> CSS concepts</a>
+                <hr class="dropdown-divider" />
+                <a href="js-fundamentals.html" class="dropdown-item">Javascript fundamentals</a>
+                <hr class="dropdown-divider" />
+                <a href="problem-solving.html" class="dropdown-item">Problem solving</a>
+                <hr class="dropdown-divider" />
+                <a href="why-bulma.html" class="dropdown-item">Why bulma</a>
+              </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section my-3"></div>
+  </section>
+  <section class="section">
+    <div class="container is-align-items-self-end has-text-weight-medium is-fluid ">
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>About me</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="about-me.html" class="dropdown-item">About me</a>
+                <hr class="dropdown-divider" />
+              </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog 1 - Css Concepts</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" rel="stylesheet"/>
+  </head>
+  <nav class="navbar">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="index.html" class="button is-light">
+            Home
+          </a>
+        </div>
+  </nav>
+  <section>
+    <div class="section mx-3 my-2 py-2 py-3">
+      <div class="block is-size-2 has-text-weight-bold">Classes vs. Ids</div>
+      <div class="block is-size-5 has-text-weight-medium">
+        Overview
+      </div>
+      <div class="block is-size-7">
+        Both are tags that help target page elements and are fundamental building
+          blocks for: css, html and javascript.
+      </div>
+    <div class="block is-size-5 has-text-weight-semibold">
+      Differences
+    </div>
+    <div class="block is-size-7">
+      The main difference between both of them is that ids are unique and
+      classes are not.
+    </div>
+    <div class="block is-size-5 has-text-weight-semibold">
+      So what does that mean?
+    </div>
+  <div class="block is-size-7 has-text-weight-medium">
+    For Classes:
+  </div>
+  <div class="block is-size-7">
+    You can use the same class on multiple elements and you can use multiple
+      elements on the same classes.
+  </div>
+  <div class="block is-size-7 has-text-weight-medium">
+    For IDs:
+  </div>
+  <div class="block is-size-7">
+    You can use one ID for each element and each page can only have that one
+      element with that Id once.
+  </div>
+  <div class="block is-size-5 has-text-weight-semibold">
+    So what are the best ways to use both?
+  </div>
+  <div class="block is-size-7 has-text-weight-semibold">
+    For Classes:
+  </div>
+  <div class="block is-size-7">
+    Since classes cam be used by multiple elements on the same page and
+      multiple classes can be used by a single element on the same page, an
+      example of best practices is with styling or any other broad targeting
+      tasks. Instead of needing to make a new Id for every element you want to
+      target you can use classes to speed up the process. Its resusability is it
+      strength.
+  </div>
+  <div class="block is-size-7 has-text-weight-semibold">
+    For Ids:
+  </div>
+  <div class="block is-size-7">
+    Since Id's are unique to the element it is applied to, an example of its
+      best practice is with '#' value or any other specific targeting. By using
+      the '#' in a URL, a browser will locate the specfic element with that
+      exact '#' value and automatically scroll. It's uniqueness is its strength.
+  </div>
+  <div class="block is-size-5 has-text-weight-semibold">
+    So what are the best ways to use both?
+  </div>
+  <div class="block is-size-7 has-text-weight-semibold">
+    Specficity Weight
+  </div>
+  <div class="block is-size-7">
+    Specficity weight is the rule that css uses when deciding what declaration
+      to use. Typically the last declaration found when reading the code from
+      top to bottom, also known as 'heirachichy', is what will be used if the
+      specficity weight is equal. If however the specficity weight is not equal
+      then the more specfic declartion will be used not matter what declartion
+      was last found.
+  </div>
+  <div class="block is-size-7">
+    An analogy I found useful for Classes and Ids is serial codes and
+      barcodes. A barcode for an iphone product will read the same price at a
+      checkout, but both phones have a serial number specfically created for
+      itself.
+  </div>
+  </body>
+</html>
