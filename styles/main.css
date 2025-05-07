@@ -1,1 +1,48 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css';
+
+.column {
+  padding: 15px;
+  margin: 15px;
+}
+
+.image {
+  padding: var(--bulma-box-padding--, 2.25rem);
+  margin: 1px;
+}
+
+.box {
+  background-color: var(--bulma-box-background-color--);
+  padding: var(--bulma-box-padding--, 2.25rem);
+  margin: 1px;
+}
+
+.title {
+  color: var(--bulma-color);
+  font-size: var(--bulma-is-size, 2.5rem);
+  font-weight: var(--bulma-title-weight, 1.5rem);
+  padding: 10px;
+  margin: 5px;
+}
+
+.subtitle {
+  color: var(--bulma-color);
+  font-size: var(--bulma-is-size, 1.5rem);
+  font-weight: var(--bulma-title-weight, 1.5rem);
+  padding: 15px;
+  margin: 15px;
+}
+.normalText {
+  color: var(--bulma-color);
+  font-size: var(--bulma-is-size, 1.25rem);
+  font-weight: var(--bulma-title-weight, 1.5rem);
+  padding: 15px;
+  margin: 15px;
+}
+
+.lightText {
+  color: var(--bulma-color);
+  font-size: var(--bulma-is-size, 1.25rem);
+  font-weight: var(--bulma-title-weight, 1rem);
+  padding: 10px;
+  margin: 15px;
+}
